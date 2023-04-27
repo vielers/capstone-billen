@@ -1,0 +1,30 @@
+nav {
+	background-color: #ffb6c1;
+	text-align: center;
+	padding: 10px;
+	position: sticky;
+	top: 10px;
+	font-weight: bolder;
+}
+
+#navbar {
+	display: inline;
+	font-family: "laila", sans-serif;
+	font-size: 20px;
+	color: black;
+}
+
+nav .nav {
+	display: inline;
+	margin: 1rem;
+}
+
+#viel {
+	color: deeppink;
+}
+
+#gallery {
+	background-color: #ffb6c1;
+	font-family: "noto sans", sans-serif;
+}
+
