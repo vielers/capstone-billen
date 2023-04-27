@@ -1,6 +1,5 @@
 nav {
 	background-color: #ffb6c1;
-	text-align: center;
 	padding: 10px;
 	position: sticky;
 	top: 10px;
@@ -12,15 +11,16 @@ nav {
 	font-family: "laila", sans-serif;
 	font-size: 20px;
 	color: black;
+	text-align: center;
 }
 
-nav .nav {
-	display: inline;
-	margin: 1rem;
-}
-
-#viel {
+#viel2 {
 	color: deeppink;
+}
+
+#aboutme {
+	font-family: "noto sans", sans-serif;
+	text-align: justify;
 }
 
 #gallery {
@@ -28,3 +28,36 @@ nav .nav {
 	font-family: "noto sans", sans-serif;
 }
 
+#bakedcreation {
+	font-weight: bolder;
+}
+
+
+#toolsiuse {
+	font-family: "noto sans", sans-serif;
+	font-weight: bolder;
+}
+
+form .form-group {
+	background-color: #ffb6c1;
+}
+
+footer {
+	padding: 0.5rem;
+	background-color: #c2195b;
+	text-align: center;
+	color: whitesmoke;
+}
+
+footer span {
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+}
+
+#backtotop {
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: #b4d6de;
+}

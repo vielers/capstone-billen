@@ -29,16 +29,19 @@
 	  <div class="collapse navbar-collapse" id="navbar">
 	    <ul class="navbar-nav ml-auto">
 	      <li class="nav-item active">
-	        <a class="nav-link" href="#" id="viel">Viel<span class="sr-only">(current)</span></a>
+	        <a class="nav-link" href="#landing">Viel<span class="sr-only">(current)</span></a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="#">About Me</a>
+	        <a class="nav-link" href="#viel2">About Me</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="#">Baked Creations</a>
+	        <a class="nav-link" href="#bakedcreations">Baked Creations</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="#">Contact Us</a>
+	        <a class="nav-link" href="#tools">Tools</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#contactme">Let's Connect</a>
 	      </li>
 	    </ul>
 	  </div>
@@ -46,25 +49,27 @@
 	<!-- Navbar Section End -->
 
 	<!-- Main Content Section Start -->
-	<div class="container-fluid text-center">
+	<div class="container-fluid text-center" id="landing">
 		<div class="row">
 			<!-- Landing Page Start -->
 			<div class="container-fluid text-dark min-vh-100 p-3 p-md-5">
-				<img class="mt-5 mt-md-0 rounded-circle" src="./images/me.jpg" width="150">
+				<img class="mt-5 mt-md-0 rounded-circle" src="./images/me.jpg" width="250">
 
-				<h1>Beejay Viel Billen</h1>
-				<h3>Full-Stack Developer</h3>
+				<h1 id="viel2">Beejay Viel Billen</h1>
+				<h4>Full-Stack Developer</h4>
 
-				<div class="row mt-5">
+				<div class="row mt-3" id="aboutme">
 					<div class="offset-md-2 col-md-8">
 						<p>
-							Hi there! My name is Viel, a Mechanical Engineer who's passionate about baking and sharing delicious recipes.
+							Hi there! My name is Viel, a Mechanical Engineer, passionate baker, and currently seeking the world of coding.
 
-							In my professional life, I am constantly seeking to learn and grow in my field. When I'm not working, you can find me mostly in the kitchen, watching K-dramas, or spending quality time with my loved ones.
+							As I started my coding journey, I learned that it is a challenging and complex subject, but it is also one that can be broken down into manageable steps. Coding is a skill that requires tons of patience, perseverance, and willingness to learn from your mistakes.
 
-							I started this website as a way to document my baking journey and inspire others that they can be creative in the kitchen too.
+							I believe that with time and practice, a deep understanding of coding concepts and a sense of confidence in my abilities will begin to develop.
 
-							Thanks for stopping by, and I hope you enjoy browsing my baked creations. 
+							Today, I am thrilled to learn in a new industry that challenges and allows me to continuously learn and grow. So if you are considering that career change, take that first step, dive in, and enjoy the journey.
+
+							Thanks for stopping by, and I hope you enjoy browsing my baked creations gallery for now. 
 						</p>
 					</div>
 				</div>
@@ -73,10 +78,9 @@
 
 			<!-- Gallery - Baked Creations Start -->
 			<div class="text-secondary min-vh-100 d-md-block" id="gallery">
-				<h2 class="mt-3">Baked Creations</h2>
-				<h3 class="mt-3 mb-3">Bread & Cookies</h3>
-				<!-- Bread & Cookies Carousel Start -->
-				<div class="row d-block mt-md-5">
+				<h2 id="bakedcreations" class="mt-3">Baked Creations</h2>
+				<!-- Baked Creations Carousel Start -->
+				<div class="row d-block mt-md-3">
 					<div class="offset-xl-3 col-xl-6">
 						<div id="carouselcookies" class="carousel slide" data-ride="carousel">
 						  <ol class="carousel-indicators">
@@ -86,27 +90,63 @@
 						    <li data-target="#carouselcookies" data-slide-to="3"></li>
 						    <li data-target="#carouselcookies" data-slide-to="4"></li>
 						    <li data-target="#carouselcookies" data-slide-to="5"></li>
+						    <li data-target="#carouselcookies" data-slide-to="6"></li>
+						    <li data-target="#carouselcookies" data-slide-to="7"></li>
+						    <li data-target="#carouselcookies" data-slide-to="8"></li>
 						  </ol>
 						  <div class="carousel-inner">
 						    <div class="carousel-item active">
 						      <img src="./images/bread1.jpg" class="d-block w-100 img-fluid" alt="...">
 						      <div class="carousel-caption d-block">
 						      	<h5>Pork Floss Bread</h5>
-						      	<p>Savory bread topped with shredded pork floss.</p>
 						      </div>
 						    </div>
 						    <div class="carousel-item">
 						      <img src="./images/bread2.jpg" class="d-block w-100 img-fluid" alt="...">
 						      <div class="carousel-caption d-block">
 						      	<h5>Pork Floss Bread</h5>
-						      	<p>Savory bread topped with shredded pork floss.</p>
 						      </div>
 						    </div>
 						    <div class="carousel-item">
-						      <img id="ube" src="./images/bread3.jpg" class="d-block w-100 img-fluid" alt="...">
+						      <img src="./images/bread4.jpg" class="d-block w-100 img-fluid" alt="...">
 						      <div class="carousel-caption d-block">
-						      	<h5>Ube Bars</h5>
-						      	<p>Slices of bread dipped in ube flavored syrup and coated with desiccated coconut.</p>
+						      	<h5>Korean Cream Cheese Garlic Bread</h5>
+						      </div>
+						    </div>
+						    <div class="carousel-item">
+						      <img src="./images/br1.jpg" class="d-block w-100 img-fluid" alt="...">
+						      <div class="carousel-caption d-block">
+						      	<h5>Brownies</h5>
+						      </div>
+						    </div>
+						    <div class="carousel-item">
+						      <img src="./images/cc1.jpg" class="d-block w-100 img-fluid" alt="...">
+						      <div class="carousel-caption d-block">
+						      	<h5>Cheesecake Cupcakes</h5>
+						      </div>
+						    </div>
+						    <div class="carousel-item">
+						      <img src="./images/pandesal.jpg" class="d-block w-100 img-fluid" alt="...">
+						      <div class="carousel-caption d-block">
+						      	<h5>Pandesal</h5>
+						      </div>
+						    </div>
+						    <div class="carousel-item">
+						      <img src="./images/cookie1.jpg" class="d-block w-100 img-fluid" alt="...">
+						      <div class="carousel-caption d-block">
+						      	<h5>Cookies</h5>
+						      </div>
+						    </div>
+						    <div class="carousel-item">
+						      <img src="./images/cake1.jpg" class="d-block w-100 img-fluid" alt="...">
+						      <div class="carousel-caption d-block">
+						      	<h5>Strawberry Cake</h5>
+						      </div>
+						    </div>
+						    <div class="carousel-item">
+						      <img src="./images/cake3.jpg" class="d-block w-100 img-fluid" alt="...">
+						      <div class="carousel-caption d-block">
+						      	<h5>Hyun Bin Cake</h5>
 						      </div>
 						    </div>
 						  </div>
@@ -121,15 +161,84 @@
 						</div>
 					</div>
 				</div>
-				<!-- Cookies Carousel End -->
+				<!-- Baked Creations Carousel End -->
 			</div>
+			<!-- Gallery - Baked Creations End -->
 
-			<!-- Gallery - Baked Creations Start -->
-			
-		</div>	
+			<!-- Tools Start -->
+			<div class="container-fluid text-dark min-vh-30 p-3" id="tools">
+				<h3 id="toolsiuse" class="row justify-content-center">Tools I Use</h3>
+				<div class="d-flex align-items-center">
+					<div class="flex-row justify-content-center align-items-center mx-auto">
+						<img width="150" src="./images/logo-html5.png" class="img-fluid">
+						<img width="150" src="./images/logo-bootstrap.png" class="img-fluid">
+						<img width="150" src="./images/logo-css3.png" class="img-fluid">
+						<img width="150" src="./images/logo-git.png" class="img-fluid">
+						<img width="150" src="./images/logo-gitlab-ci-cd.png" class="img-fluid">
+						<img width="150" src="./images/logo-sublime-text-3.png" class="img-fluid">
+					</div>
+				</div>
+			</div>
+			<!-- Tools End -->
+
+			<!-- Contact Me Start -->
+			<div id="contactme" class="container-fluid text-secondary min-vh-80 p-3">
+				<h2 class="mb-3">Let's Connect</h2>
+
+				<!-- Contact Me Container Start -->
+				<div class="d-lg-flex justify-content-center p-md-2">
+					<form class="card col-xl-6 mb-5 mb-xl-0">
+						<div class="form-group mt-3">
+							<label for="name">Name</label>
+							<input type="text" class="form-control" id="name" placeholder="Your Name">
+						</div>
+						<div class="form-group mt-3">
+							<label for="emailaddress">Email Address</label>
+							<input type="text" class="form-control" id="emailaddress" placeholder="name@example.com">
+						</div>
+						<div class="form-group mt-3">
+							<label for="message">Message</label>
+							<input type="text" class="form-control" id="message">
+						</div>
+						<button type="button" class="btn btn-secondary btn-sml mb-3" data-toggle="modal" data-target="#Modal">Send Email
+						</button>
+					</form>
+				</div>
+				<!-- Contact Me Container End -->
+			</div>
+			<!-- Contact Me End -->
+			<!-- Back to top -->
+			<a href="#landing" id="backtotop" class="text-center">Back to Top</a>
+		</div>
 	</div>
-
 	<!-- Main Content Section End -->
+
+	<footer>
+		<span>Beejay Viel Billen</span>
+		<span>|</span>
+		<span>&copy; All Rights Reserved 2023</span>
+	</footer>
+
+	<!-- Modal Start -->
+	<div class="modal" id="Modal" tabindex="-1">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title">Thank you for contacting us!</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        <p class="text-center">Message Successfully Sent</p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- Modal End -->
 
 
 	<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
