@@ -17,49 +17,51 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet">
+
     <!-- External CSS -->
     <link rel="stylesheet" href="./index.css">
 
 	<title>First Capstone - Billen</title>
 </head>
-<body>
+<body class="container-fluid col-12 p-0">
 
 	<!-- Navbar Section Start -->
-	<nav class="navbar navbar-expand-lg navbar-light">
-	  <div class="collapse navbar-collapse" id="navbar">
-	    <ul class="navbar-nav ml-auto">
-	      <li class="nav-item active">
-	        <a class="nav-link" href="#landing">Viel<span class="sr-only">(current)</span></a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#viel2">About Me</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#bakedcreations">Baked Creations</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#tools">Tools</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#contactme">Let's Connect</a>
-	      </li>
-	    </ul>
-	  </div>
+	<nav class="container-fluid d-flex col-12 p-0">
+		<ul class="d-flex collapse navbar-collapse justify-content-center mt-2 mb-2">
+			<li class="nav-item">
+				<a href="#viel2">About Me</a>
+			</li>
+			<li class="nav-item">
+				<a href="#bakedcreations">Baked Creations</a>
+			</li>
+			<li class="nav-item" id="nav-viel">
+				<a href="#landing">Viel</a>
+			</li>
+			<li class="nav-item">
+				<a href="#tools">Tools I Use</a>
+			</li>
+			<li class="nav-item">
+				<a href="contactme">Let's Connect</a>
+			</li>
+		</ul>
 	</nav>
 	<!-- Navbar Section End -->
 
 	<!-- Main Content Section Start -->
-	<div class="container-fluid text-center" id="landing">
+	<div class="container-fluid text-center d-flex col-12 p-0" id="landing">
 		<div class="row">
 			<!-- Landing Page Start -->
 			<div class="container-fluid text-dark min-vh-100 p-3 p-md-5">
-				<img class="mt-5 mt-md-0 rounded-circle" src="./images/me.jpg" width="250">
+				<img class="mt-5 mt-md-0 rounded-circle" src="./images/me.jpg" width="250" id="vielpic">
 
 				<h1 id="viel2">Beejay Viel Billen</h1>
-				<h4>Full-Stack Developer</h4>
+				<h4 class="mt-3">Full-Stack Developer</h4>
 
 				<div class="row mt-3" id="aboutme">
-					<div class="offset-md-2 col-md-8">
+					<div class="offset-md-3 col-md-6">
 						<p>
 							Hi there! My name is Viel, a Mechanical Engineer, passionate baker, and currently seeking the world of coding.
 
@@ -77,10 +79,10 @@
 			<!-- Landing Page End -->
 
 			<!-- Gallery - Baked Creations Start -->
-			<div class="text-secondary min-vh-100 d-md-block" id="gallery">
+			<div class="text-secondary min-vh-100 d-md-block d-block" id="gallery">
 				<h2 id="bakedcreations" class="mt-3">Baked Creations</h2>
 				<!-- Baked Creations Carousel Start -->
-				<div class="row d-block mt-md-3">
+				<div class="row d-block mt-md-5">
 					<div class="offset-xl-3 col-xl-6">
 						<div id="carouselcookies" class="carousel slide" data-ride="carousel">
 						  <ol class="carousel-indicators">
@@ -208,12 +210,12 @@
 			</div>
 			<!-- Contact Me End -->
 			<!-- Back to top -->
-			<a href="#landing" id="backtotop" class="text-center">Back to Top</a>
+			<!-- <a href="#landing" id="backtotop" class="text-center">Back to Top</a> -->
 		</div>
 	</div>
 	<!-- Main Content Section End -->
 
-	<footer>
+	<footer class="col-12 p-0">
 		<span>Beejay Viel Billen</span>
 		<span>|</span>
 		<span>&copy; All Rights Reserved 2023</span>
